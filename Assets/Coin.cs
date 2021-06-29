@@ -1,0 +1,1 @@
+using UnityEngine;public class Coin : MonoBehaviour{    public float value = 1;    public string resourceName = "Gold";    public void Collect()    {        Resources.Find(resourceName).Change(value);        Destroy(gameObject);    }}
