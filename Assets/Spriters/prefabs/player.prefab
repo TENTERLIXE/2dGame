@@ -76,6 +76,7 @@ MonoBehaviour:
   m_ResourceName: Gold
   m_Value: 0
   m_MaxValue: 9999
+  save: 1
   OnZero:
     m_PersistentCalls:
       m_Calls: []
